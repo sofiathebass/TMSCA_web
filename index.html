@@ -5,33 +5,22 @@
 		<title>Translational Medicine and Stem Cell Association - TMSCA at UC Berkeley</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="https://tmsca.berkeley.edu/images/logo.png">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script>
-		function othername() {
-    		var input = document.getElementById("userInput").value;
-    		alert(input);
-		}
-		function ClearFields() {
-			document.getElementById("userInput").value = "";
-			document.getElementById("userInput2").value = "";
-		}
-		</script>
-		<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-          <py-env>
-            - paths:
-              - ./example.py
-          </py-env>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
-			<div id="wrapper" style="background-color:black">
+			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header">
 						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.png" alt="" /></span><span class="title">TMSCA @ UC Berkeley</span>
+								</a>
 
 							<!-- Nav -->
 								<nav>
@@ -48,17 +37,28 @@
 						<h2>Menu</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="officers.html">Add Script</a></li>
+							<li><a href="officers.html">Officers</a></li>
+							<li><a href="committees.html">Committees</a></li>
+							<li><a href="outreach.html">Education & Outreach</a></li>
+							<li><a href="conference.html">Conference</a></li>
+							<li><a href="partners.html">Partners</a></li>
+							<li><a href="get_involved.html">Get Involved</a></li>
+							<li><a href="research_teams.html">Clinical Research Teams [NEW!]</a></li>
+							<li><a href="https://calendar.google.com/calendar/u/0?cid=Y184aWNjdWg4bHJvb25rdDFyY25mbzJ2YnFzb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank" rel="noopener noreferrer">Calendar</a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<header style="text-align:center; color:whitesmoke">
-								<h1>Lab Scripts</h1>
-								<p>Are you lazy? I am! Here's what I do to make my life easier instead of using my brain
+							<header>
+								<h1>Translational Medicine and Stem Cell Association</h1>
+								<p>We are a student organization at the <b>University of California, Berkeley</b> dedicated to increasing public support for stem cell research, acquainting our members with the research landscape at Berkeley and the Bay Area, and assisting our members in achieving their professional goals in the life sciences. We have hosted a variety of guest speakers from academia, industry, and healthcare at our meetings.
 							</p>
+							<ul class="actions">
+								<li><a href="https://forms.gle/ECHpV76gTkgX6WCh9" class="button">Spring 2023 Recruitment is Open!</a></li>
+								<li><a href="mailto: tmscaberkeley@gmail.com" class="button">Contact Us</a></li>
+							</ul>
 								<hr />
 
 							</header>
@@ -66,55 +66,24 @@
 
 
 
-								<article class="style5">
+								<article class="style3">
 									<span class="image">
-										<img src="./purplebox.png" alt="" />
+										<img src="images/grid_saman.png" alt="" />
 									</span>
 									<a>
-										<h2>Literally Addition</h2>
+										<h2>Saman Arfaie</h2>
 										<div class="content">
-        									<b> <label id="lucky"></label></b>
-											<p style="margin-bottom: -10px;">Add two integers as input</p>
-											<form id="form" onsubmit="return false;">
-												<input type="text" id="userInput" /> 
-												<input type="text" id="userInput2" />
-												<button id="submit-button" type="submit" style="margin-top: 10px;" pys-onClick="addition" >Submit </button>
-												
-											</form>
-											<div id="test-output"></div>
-        									<py-script>
-												def HelloWorld():
-													return ('Hello World')
-
-												def my_function(*args, **kwargs):
- 													text = Element('userInput').element.value
-														text2 = Element('userInput2').element.value
-											 		if text == "4":
-															Element('test-output').element.innerText = type(text2)
-														else:
-															Element('test-output').element.innerText = "Nope"
-														return ('Hi')	
-
-												def addition(*args, **kwargs):
-													text1 = Element('userInput').element.value
-													text2 = Element('userInput2').element.value
-													if (text1 != '') and (text2 != ''):
-														text1_int = int(text1)
-														text2_int = int(text2)
-														Element('test-output').element.innerText = text1_int+text2_int
-													Element('userInput').element.value = ''
-													Element('userInput2').element.value = ''
-       										</py-script>
+											<p><b>McGill University</b><br>Medicine, Research, Music, Philosophy, and the Good Life</p>
 										</div>
 									</a>
 								</article>
 
-								<article class="style1">
+								<article class="style2">
 									<span class="image">
-										<img src="./pinkbox.png" alt="" />
+										<img src="images/grid_maaz.png" alt="" />
 									</span>
 									<a>
-										<h2>To Do</h2>
+										<h2>Maaz Asher</h2>
 										<div class="content">
 											<p><b>NYU Grossman School of Medicine</b><br>How to Fit In: the Importance of Plasticity</p>
 										</div>
@@ -122,26 +91,14 @@
 								</article>
 
 
-								<article class="style5">
+								<article class="style3">
 									<span class="image">
-										<img src="purplebox.png" alt="" />
+										<img src="images/grid_siming.png" alt="" />
 									</span>
 									<a>
-										<h2>To Do</h2>
+										<h2>Siming Xu</h2>
 										<div class="content">
-											<button type="button" id="button">run Python</button>
-
-											<py-script>
-											from js import document 
-											from pyodide import create_proxy
-
-											def runPython(hi):
-    											return ('hi')
-
-											function_proxy = create_proxy(runPython)
-
-											document.getElementById("button").addEventListener("click", function_proxy)
-											</py-script>
+											<p><b>Alstem</b><br>Research in Industry</p>
 										</div>
 									</a>
 								</article>
@@ -150,36 +107,36 @@
 
 
 
-								<article class="style1">
+								<article class="style2">
 									<span class="image">
-										<img src="pinkbox.png" />
+										<img src="images/david.jpg" alt="" />
 									</span>
 									<a>
-										<h2>To Do</h2>
+										<h2>David Schaffer</h2>
 										<div class="content">
 											<p><b>UC Berkeley Bioengineering</b><br>Adeno-Associated Viral<br>Delivery Vehicles for Gene Therapy</p>
 										</div>
 									</a>
 								</article>
 
-								<article class="style5">
+								<article class="style3">
 									<span class="image">
-										<img src="purplebox.png" alt="" />
+										<img src="images/clark.jpg" alt="" />
 									</span>
 									<a>
-										<h2>To Do</h2>
+										<h2>Clark Chen</h2>
 										<div class="content">
 											<p><b>University of Minnesota Neurosurgery</b><br>How Brain Cancers Become<br>Resistant to Radiation</p>
 										</div>
 									</a>
 								</article>
 
-								<article class="style1">
+								<article class="style2">
 									<span class="image">
-										<img src="pinkbox.png" alt="" />
+										<img src="images/xiaohua.jpg" alt="" />
 									</span>
 									<a>
-										<h2>To Do</h2>
+										<h2>Xiaohua Gong</h2>
 										<div class="content">
 											<p><b>UC Berkeley Optometry</b><br>Ocular Genetics, Metabolism, and<br>Tissue Engineering</p>
 										</div>
@@ -190,36 +147,36 @@
 
 
 
-								<article class="style5">
+								<article class="style3">
 									<span class="image">
-										<img src="purplebox.png" alt="" />
+										<img src="images/pic01.jpg" alt="" />
 									</span>
 									<a>
-										<h2>To Do</h2>
+										<h2>Geoffrey Lomax</h2>
 										<div class="content">
 											<p><b>The California Stem Cell Agency</b><br>Protecting Patients with Standards for Stem Cell Based Treatments</p>
 										</div>
 									</a>
 								</article>
 
-								<article class="style1">
+								<article class="style2">
 									<span class="image">
-										<img src="pinkbox.png" alt="" />
+										<img src="images/pic02.jpg" alt="" />
 									</span>
 									<a>
-										<h2>To Do</h2>
+										<h2>Elizabeth Simpson</h2>
 										<div class="content">
 											<p><b>The University of British Columbia</b><br>CRISPR-based Gene Therapy for Aniridia</p>
 										</div>
 									</a>
 								</article>
 
-								<article class="style5">
+								<article class="style3">
 									<span class="image">
-										<img src="purplebox.png" alt="" />
+										<img src="images/pic03.jpg" alt="" />
 									</span>
 									<a>
-										<h2>To Do</h2>
+										<h2>Diane Barber</h2>
 										<div class="content">
 											<p><b>UCSF Cell & Tissue Biology</b><br>The Cell Biology of<br>Embryonic Stem Cell Potency</p>
 										</div>
@@ -231,7 +188,7 @@
 										<img src="images/pic04.jpg" alt="" />
 									</span>
 									<a>
-										<h2>To Do</h2>
+										<h2>David Jacoby</h2>
 										<div class="content">
 											<p>VP of Discovery Medicine<br><b>Biomarin Pharmaceutical</b></p>
 										</div>
